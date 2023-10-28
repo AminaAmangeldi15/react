@@ -1,0 +1,6 @@
+.navigation-links {
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+    align-items: center;
+    padding-right: 50px; /* Adjust margin as needed for spacing */
+}

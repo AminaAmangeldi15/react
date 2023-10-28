@@ -1,0 +1,48 @@
+.words {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Marcellus", sans-serif;
+}
+
+.room-cards {
+    display: block;
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.room-card {
+    /*display: flex;*/
+    /*width: calc(50% - 20px);*/
+    margin-bottom: 40px;
+    /*align-items: center;*/
+    /* border: 1px solid #ddd; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.room-image img {
+    width: 50%;
+    height: auto;
+}
+
+.room-details {
+    padding: 10px;
+    color: #333632;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    font-family: "Jost", sans-serif;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    padding: 7px 0;
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
+.next {
+    padding-left: 10px;
+    padding-top: 3px;
+}
